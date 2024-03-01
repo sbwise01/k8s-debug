@@ -20,7 +20,8 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y \
   iproute2 \
   openssh-client \
   openssl \
-  postgresql
+  postgresql \
+  redis
 
 RUN apt-get clean -y
 
